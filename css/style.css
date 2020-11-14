@@ -1,0 +1,162 @@
+body,
+p {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.paint {
+  display: flex;
+  margin-top: 21px;
+}
+.paint-two {
+  display: flex;
+  margin-top: 12px;
+}
+.paint-three {
+  display: flex;
+  margin-top: 10px;
+}
+.paint-four {
+  display: flex;
+  padding-top: 10px;
+}
+.paint-five {
+  display: flex;
+  padding-top: 20px;
+}
+.baslik {
+  font-size: 15px;
+  color: hsl(0, 0%, 100%);
+}
+.row {
+  margin-top: 40px;
+}
+.colon {
+  background-color: hsl(263, 55%, 52%);
+}
+.verified {
+  color: hsl(0, 0%, 81%);
+  opacity: 50%;
+}
+.one {
+  color: hsl(0, 0%, 100%);
+}
+.text-one {
+  color: hsl(0, 0%, 81%);
+  opacity: 70%;
+}
+.clifford {
+  line-height: 5px;
+}
+.baslik-two {
+  display: flex;
+}
+.second-box {
+  background-color: hsl(217, 19%, 35%);
+}
+.daniel {
+  margin-left: 26px;
+}
+
+.baslik-two {
+  display: flex;
+  color: hsl(0, 0%, 81%);
+  opacity: 50%;
+}
+.jonathan {
+  margin-top: 11px;
+  line-height: 2px;
+}
+img {
+  margin-right: 20px;
+  vertical-align: middle;
+  border-style: none;
+  margin-left: 20px;
+}
+.text-two {
+  color: hsl(0, 0%, 100%);
+}
+.text-three {
+  color: hsl(0, 0%, 81%);
+  opacity: 70%;
+}
+.field-two {
+  background-color: hsl(0, 0%, 100%);
+}
+.jeanette {
+  color: hsl(219, 29%, 14%);
+  margin-top: 17px;
+  line-height: 2px;
+}
+.baslik-three {
+  display: flex;
+  color: (217, 19%, 35%);
+  opacity: 50%;
+}
+.text-four {
+  color: hsl(217, 19%, 35%);
+  padding-bottom: 10px;
+}
+.patrick {
+  background-color: hsl(219, 29%, 14%);
+}
+.baslik-four {
+  display: flex;
+  color: hsl(0, 0%, 100%);
+  opacity: 50%;
+}
+.text-five {
+  color: hsl(0, 0%, 100%);
+}
+.abrams {
+  padding-top: 19px;
+  line-height: 1px;
+}
+.kira {
+  color: hsl(217, 19%, 35%);
+  padding-top: 16px;
+  line-height: 1px;
+}
+.text-six {
+  display: flex;
+  color: (217, 19%, 35%);
+  opacity: 50%;
+}
+.last {
+  color: hsl(217, 19%, 35%);
+}
+@media (max-width: 767px) {
+  body {
+    height: 100%;
+  }
+  .colon {
+    margin-bottom: 20px;
+  }
+  .colontwo {
+    margin: 20px 0;
+  }
+  .row {
+    margin: 0;
+  }
+  .colonthree {
+    margin: 20px 0;
+  }
+
+  @media (min-width: 768px) {
+    .container {
+      width: 768px;
+    }
+  }
+
+  @media only screen and (min-width: 980px) {
+    .container {
+      width: 980px;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .container {
+      width: 1200px;
+    }
+  }
+}
